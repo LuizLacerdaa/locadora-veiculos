@@ -55,9 +55,9 @@ table {
 
 
 body {
-    background-color: #FFC107;
+    background-color: #E1FFBB   ;
     /* muda a cor do fundo*/
-    font-family: arial;
+    font-family: system-ui, 'Helvetica Neue', sans-serif;
     /* muda a fonte*/
 }
 
@@ -81,6 +81,7 @@ body {
 }
 
 .titulo {
+    font-family: georgia sans-serif;
     font-size: 32px;
     /* Tamanho fonte*/
     margin-top: 14px;
@@ -130,7 +131,7 @@ body {
 .botao-reservar {
     width: 100%;
     /* largura*/
-    background-color: #FFC107;
+    background-color: #074799;
     color: white;
     /* cor botão */
     line-height: 150%;
@@ -152,11 +153,11 @@ body {
 .oferta {
     font-size: 36px;
     font-weight: bold;
-    color: white;
+    color: #074799;
 }
 
 .destaque {
-    color: #445ee5;
+    color: #009990;
 }
 
 .texto-oferta {
@@ -173,3 +174,6 @@ body {
 
 }
 
+.imagem{
+    padding-left: 100px;
+}
